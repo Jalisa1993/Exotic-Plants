@@ -103,11 +103,11 @@ nav li {
 }
 nav li a, nav li a:visited {
     text-decoration: none;
-    color: #C64322;
+    color: rgb(34, 192, 198);
     padding: 0.3em 0.6em;
 }
 nav li a:hover {
-    color: #C64322;
+    color: rgb(34, 192, 198);
     background-color: rgba(252,251,243,0.7)
 }
 nav#utilityMenu {
@@ -131,11 +131,11 @@ nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
     font-size: 0.8em;
 }
 nav#utilityMenu ul li.acctNav a.active {
-    background-color: #C64322;
+    background-color:rgb(34, 192, 198);
 }
 nav#utilityMenu ul li.acctNav a:hover {
     background-color: rgba(252,251,243,0.75);
-    color: #C64322;
+    color: rgb(34, 192, 198);
 }
 nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
 nav#utilityMenu li a:hover { background-color: transparent;}
@@ -189,10 +189,10 @@ section#sidebar {
     float: right;
     position: relative;
     display: block;
-    background-color: rgb(236, 208, 232);
+    background-color: rgb(255, 255, 255);
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
-    border-left: rgb(43, 169, 138) solid 5px;
+    border-left: rgb(43, 169, 138) solid 10px;
 }
 sidebar h1 {
     font-family: "Italic" serif;
