@@ -24,7 +24,7 @@ h2 {
 }
 p {
     font-size: 1.5em;
-    line-height: 1.4em;
+    line-height: 1em;
     color: rgb(114, 251, 2);
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
@@ -79,7 +79,7 @@ header h1 {
 }
 header h2 {
     font-weight: 300;
-    font-size: 3.8em;
+    font-size: 1.8em;
     color: rgb(169, 43, 43);
     margin: -0.4em 0 0 1.0em;
     text-transform: uppercase;
@@ -185,11 +185,12 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
     color: #FCFBE6;
 }
 section#sidebar {
-    width: 238px;
+    width: 1420px;
+    top: -38px;
     float: right;
     position: relative;
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(119, 12, 96);
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-left: rgb(43, 169, 138) solid 10px;
@@ -207,6 +208,7 @@ section #main {
     margin: 0 0 2.0em;
     padding: 1.5em  0 2.0em 1.5em;
     display: inline-block;
+    position:relative;
     border-radius: 2em;
     box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
 }
@@ -214,6 +216,7 @@ section div.panel{
     float: left;
     position: relative;
     width: 250px;
+    height: 570.28px;
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
     background-color: #fff;
@@ -230,7 +233,6 @@ footer {
     color: #fff;
     width: 100%;
     text-align: center;
-    padding: 1.5em 2.0em;
 }
 footer ul#menuFooter {
     display: inline-block;
